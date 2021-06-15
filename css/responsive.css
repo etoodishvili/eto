@@ -38,7 +38,9 @@
    
 }
 @media(max-width:1050px){
-    
+    .slider-img{
+        width: 80%;
+    }
 }
 
 @media(max-width:900px){
