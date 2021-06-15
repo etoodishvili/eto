@@ -29,14 +29,13 @@
 
   .logoimg{
       margin-left: 20px;
-      
-       }
+ }
 
 .nav-a{
     color:#282525;
     text-transform: uppercase;
     font-style:italic;
-    
+
 }
 .toggle-button{
     position: absolute;
@@ -47,13 +46,28 @@
     display: none;
 }
 
-/* .bannerimage{
-    background-image: url(../images/banner.jpg);
+.section1{
+    background-image: url(../images/banner2.jpg);
     height: 650px;
     width: 100%;
     background-repeat: no-repeat;
     background-repeat: cover;
-    background-position: center; */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1{
+    font-size: 78px;
+    color: #FFFFFF;
+}
+.title2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
    
 /* } */
 /* .text-image{
@@ -75,7 +89,7 @@
     width: 100%;
 } */
 
-.slider-img{
+/* .slider-img{
     width: 100%;
 }
 
@@ -86,9 +100,9 @@
     background-repeat: no-repeat;
     background-repeat: cover;
     background-position: center;
-    position: relative;
+    /* position: relative; */
     
-}
+/* }
 .slider_item2{
     background-image: url(../images/banner1.jpg);
     width: 100%;
@@ -106,9 +120,9 @@
     background-repeat: cover;
     background-position: center;
     position: relative;
-}
+} */ */
 
-.title1{
+/* .title1{
     position: absolute;
     top:50%;
     left:50%;
@@ -116,7 +130,7 @@
     font-size: 78px;
     color: #FFFFFF;
 
-}
+} */
 
 
 /* section services */
