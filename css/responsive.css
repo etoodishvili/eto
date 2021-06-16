@@ -31,54 +31,74 @@
 @media(max-width:1125px){
     .container{
         justify-content:center;
-        margin:0 50px;
-        /* text-align: center; */
+        margin-top: 74px;
+        padding: 10px 20px;
+
+    }
+    .block-image{
+        padding-left: 20px;
+    }
+
+    
+   .containermap{
+    justify-content: center;
+    width: 80%;
+   }
+    
+}
+
+@media(max-width:940px) {
+    .container{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         
     }
-   
-}
-@media(max-width:1050px){
-    .slider-img{
-        width: 80%;
-    }
-}
-
-@media(max-width:900px){
-    .container3{
-        padding:0 30px ;
-    }
-
-}
-@media(max-width:840px){
     .image-wraper{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+        padding:0 30px;
     
-    .block-image{
-      padding-bottom: 30px;
-      text-align: center;
-   }
-   .container3{
-     padding:0 30px;
     }
 
+    .block-image{
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+        
+    
+}
+@media(max-width:900px){
+   .container3{
+       padding:0 50px;
+   }
+
+
+}
+
+@media(max-width:840px){
+
+    
+    .image-wraper{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .block-image{
+        margin-right: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+   }
    .link-boxes{
-     flex-wrap: wrap;
+       flex-wrap: wrap;
     
    }
    .box{
-      width: 50%;
+       width: 50%;
    }
   .top{
     justify-content: space-between;
   }
-  .container{
-      flex-direction: column;
-      align-items: center;
-  }
   
-
+  
   
 }
 @media(max-width:768px){
@@ -86,22 +106,33 @@
         width: 50%;
         margin-bottom: 20px;
     }
+    .video
     
+    {
+        padding: 0 20px;
+    }
 
 }
 @media(max-width:690px){
     .image-wraper{
         flex-direction: column;
         align-items: center;
-      
     }
     .block-image{
         margin-bottom: 30px;
     }
-    .container1{
-     padding: 0 20px;
-    }
+    
 
+}
+@media(max-width:590px){
+    .block{
+        margin-right: 0px;
+      
+    }
+      .block1{
+        margin-right: 0px;
+      
+    }
 }
 
 @media(max-width:550px){
@@ -113,6 +144,9 @@
     .logo-details{
         margin-bottom: 20px;
     }
+    .top::before {
+        top:150px
+    }
 }
 @media(max-width:480px){
     .icon-wraper{
@@ -123,3 +157,5 @@
         margin-bottom: 20px;
     }
 }
+
+
