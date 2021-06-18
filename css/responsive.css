@@ -30,13 +30,12 @@
 
 @media(max-width:1125px){
     .container{
-       padding-left:10px;
+        justify-content:center;
+        padding: 10px 20px;
 
     }
     
 
-
-    
    .containermap{
     justify-content: center;
     width: 80%;
@@ -45,27 +44,22 @@
 }
 
 @media(max-width:940px) {
-    /* .block-wraper{
-        justify-content:center ;
-      
-        
-    } */
-    .block{
-     padding-left: 0px;
-       
-    }
     .container{
-        /* flex-wrap: wrap;
-        justify-content: center; */
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
     }
+    .block{
+        text-align: center;
+    }
+    
 
      
     
 }
-@media(max-width:906px){
-   .block{
-       margin-right: 0px;
-   }
+@media(max-width:900px){
+   
 
 
 }
