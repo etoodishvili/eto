@@ -133,6 +133,13 @@
         margin-right: 0px;
       
     }
+    .title1{
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    .title2{
+        font-size: 18px;
+    }
 }
 
 @media(max-width:550px){
@@ -155,6 +162,13 @@
     }
     .bg1{
         margin-bottom: 20px;
+    }
+    .title1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .title2{
+        font-size: 12px;
     }
 }
 
