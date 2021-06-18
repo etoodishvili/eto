@@ -1,19 +1,14 @@
 /* header */
-.header-wraper{
+/* .header-wraper{
     width: 100%;
-}
+} */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#FFFFFF;
-    height: 81px;
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    z-index: 15;
-     }
+    background-color:#FFF;
+    padding:5px;
+    }
 
     
 .nav-ul{
@@ -25,6 +20,7 @@
     font-size: 16px;
     font-family: 'Vollkorn', serif;
     font-weight:bold;
+    text-align: center;
     }
 
   .logoimg{
@@ -60,14 +56,17 @@
     align-items: center;
 }
 
-.title1{
+.section1 h4{
     font-size: 78px;
     color: #FFFFFF;
 }
-.title2{
+.section1 h2{
     font-size: 20px;
     color: #FFFFFF;
+    
 }
+
+
 
    
 /* } */
