@@ -28,7 +28,7 @@
  }
 
 .nav-a{
-    color:#282525;
+    color:#6A8595;
     text-transform: uppercase;
     font-style:italic;
 
@@ -58,11 +58,11 @@
 
 .section1 h4{
     font-size: 78px;
-    color: #FFFFFF;
+    color: #fffacd;
 }
 .section1 h2{
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fffacd;
     
 }
 
@@ -181,7 +181,7 @@
     font-size: 18px;
     font-family: 'Vollkorn', serif;
     font-style: italic;
-    color:black;
+    color:#747E9A;
     
 }
 .container p{
@@ -190,7 +190,7 @@
     font-size: 14px;
     font-family: 'IBM Plex Serif', serif;
     font-style: italic;
-    color: #8D8D8D;
+    color: #8E989A;
    
 
 }
@@ -201,11 +201,12 @@
     font-weight: normal;
     margin-bottom: 40px;
     margin-top: 7px;
+    color: #4E6A91;
     
 }
 .block h3{
     font-size:16px;
-    color: #8D8D8D;
+    color: #214C7D;
     font-weight: bold;
 
 }
@@ -526,7 +527,7 @@ font-weight: bold;
     color: blanchedalmond;
 }
 .link-boxes a {
-    color: #8D8D8D;
+    color: #A6AEB2;
     font-size:16px ;
     font-family: 'Merriweather', serif;
     margin-bottom: 5px;
