@@ -127,7 +127,7 @@
         margin-right: 0px;
       
     }
-    .title1{
+    .section1 h4{
         font-size: 60px;
         margin-bottom: 15px;
     }
@@ -157,13 +157,30 @@
     .bg1{
         margin-bottom: 20px;
     }
-    .title1{
+    .section1 h4{
         font-size: 40px;
         margin-bottom: 15px;
     }
-    .title2{
-        font-size: 12px;
+    .section1 h2{
+        font-size: 20px;
+    }
+    .bgtext{
+        font-size: 15px;
+
+    }
+}
+@media(max-width:410px){
+    .container4{
+        padding:0px;
+        padding-top:30px;
+
     }
 }
 
 
+@media(max-width:390px){
+    .section1 h2{
+        font-size: 16px;
+
+    }
+}
